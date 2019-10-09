@@ -1,0 +1,109 @@
+/* Color Styles 
+    Olive Drab      #363020
+    Ebony           #605c4e
+    Wood Brown      #a49966
+    Dark vanilla    #c7c7a6
+    Nyanza          #eaffda
+    */
+/* Global Styles */
+body {
+    background: #c7c7a6;
+    color: maroon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+}
+nav { 
+    /*max-width: 950px;*/
+    text-align: center;
+}
+
+h1 {
+    color: #c7c7a6;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+h2 {
+    font-size: 35px;
+    font-style: italic;
+    padding: 5px;
+    margin-top: 0;
+}
+p {
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 15px;
+}
+/*a {
+    
+    display: inline-block;
+    background: #363020;
+}*/
+a:link {
+    color: #c7c7a6;
+}
+a:visited {
+    background: brown;
+}
+a:hover {
+    color: rgb(207, 53, 33);
+}
+nav li {
+    display: inline-block; 
+}
+nav {
+    margin: 1px;
+}
+.work {
+    background: #a49966;
+    margin-top: 45px;
+}
+section {
+    max-width: 100%;
+}
+.content-wrap {
+    max-width: 1920px;
+    margin: auto 0;
+    padding: 5px;
+    overflow: hidden;
+}
+.profile-img {
+    border: 10px;
+    border-radius: 50%;
+}
+.col-narrow {
+    width: 20%;
+    float: left;
+    min-height: 175px;
+}
+.col-wide {
+    width: 70%; 
+    float: left;
+    padding-left: 20px;
+    min-height: 175px;
+}
+
+/* header and footer */
+header {
+    background: #363020
+}
+header p{
+    color: #c7c7a6;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+} 
+
+/*header h1, header h2 {
+    margin: 0;
+} */
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+.footerlinks a {
+    background: #363020;
+    padding: 5px;
+    border: 1px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
